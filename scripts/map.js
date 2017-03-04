@@ -5,7 +5,7 @@
      * http://www.wtfpl.net/ for more details. */
 
 const endpoint = "https://data.transformap.co/place/";
-var redundant_data_urls = [ endpoint + "name", "https://data.transformap.co/raw/5d6b9d3d32097fd6832200874402cfc3", "https://github.com/TransforMap/transformap-viewer/raw/gh-pages/susydata-fallback.json", "susydata-fallback.json" ];
+var redundant_data_urls = [ endpoint + "type_of_initiative=community_garden", "https://data.transformap.co/raw/5d6b9d3d32097fd6832200874402cfc3", "https://github.com/TransforMap/transformap-viewer/raw/gh-pages/susydata-fallback.json", "susydata-fallback.json" ];
 
 /* fix for leaflet scroll on devices that fire scroll too fast, e.g. Macs
    see https://github.com/Leaflet/Leaflet/issues/4410#issuecomment-234133427
